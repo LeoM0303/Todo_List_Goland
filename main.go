@@ -14,9 +14,11 @@ func main() {
 
 	printTask(taskIteams)
 	fmt.Println()
-	addTask(taskIteams, "Add taks")
+	taskIteams = addTask(taskIteams, "Add taks")
+
+	fmt.Println("___Updated list___")
 	fmt.Println()
-	addTask(taskIteams, "Buy book")
+	printTask(taskIteams)
 }
 
 func printTask(taskIteams []string) {
@@ -26,7 +28,7 @@ func printTask(taskIteams []string) {
 	}
 }
 
-func addTask(taskIteams []string, newTask string) {
+func addTask(taskIteams []string, newTask string) []string {
 	var updatedTaskIteams = append(taskIteams, newTask)
-	printTask(updatedTaskIteams)
+	return updatedTaskIteams
 }
