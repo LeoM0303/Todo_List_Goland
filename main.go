@@ -14,7 +14,10 @@ func main() {
 
 	printTask(taskIteams)
 	fmt.Println()
+
+	//place for add task
 	taskIteams = addTask(taskIteams, "Add taks")
+	taskIteams = addTask(taskIteams, "Practice coding in Go")
 
 	fmt.Println("___Updated list___")
 	fmt.Println()
