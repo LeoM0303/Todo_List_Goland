@@ -24,4 +24,5 @@ func printTask(taskIteams []string) {
 
 func addTask(taskIteams []string, newTask string) {
 	var updatedTaskIteams = append(taskIteams, newTask)
+	printTask(updatedTaskIteams)
 }
