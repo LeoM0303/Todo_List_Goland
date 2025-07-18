@@ -13,6 +13,8 @@ func main() {
 	var taskIteams = []string{task1, task2, task3, task4}
 
 	printTask(taskIteams)
+	fmt.Println()
+	addTask(taskIteams, "Add taks")
 }
 
 func printTask(taskIteams []string) {
