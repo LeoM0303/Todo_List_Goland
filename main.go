@@ -12,5 +12,8 @@ func main() {
 	var taskIteams = []string{task1, task2, task3, task4}
 	fmt.Println("##### Welcome TodoList App! #####\n")
 
-	fmt.Println(taskIteams)
+	for index, task := range taskIteams {
+
+	}
+
 }
