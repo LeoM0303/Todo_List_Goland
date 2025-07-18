@@ -15,6 +15,8 @@ func main() {
 	printTask(taskIteams)
 	fmt.Println()
 	addTask(taskIteams, "Add taks")
+	fmt.Println()
+	addTask(taskIteams, "Buy book")
 }
 
 func printTask(taskIteams []string) {
