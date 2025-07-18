@@ -21,3 +21,7 @@ func printTask(taskIteams []string) {
 		fmt.Printf("%d: %s\n\n", index+1, task)
 	}
 }
+
+func addTask(taskIteams []string, newTask string) {
+	var updatedTaskIteams = append(taskIteams, newTask)
+}
