@@ -13,7 +13,6 @@ func main() {
 	fmt.Println("##### Welcome TodoList App! #####\n")
 
 	for index, task := range taskIteams {
-		fmt.Printf("%d. %s\n\n", index+1, task)
+		fmt.Printf("%d: %s\n\n", index+1, task)
 	}
-
 }
