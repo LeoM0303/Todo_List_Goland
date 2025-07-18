@@ -5,11 +5,12 @@ import "fmt"
 func main() {
 
 	var task1 = "Watch night movie"
+	var task2 = "Read Book"
+	var task3 = "Add Book"
+	var task4 = "Write code"
 
+	var taskIteams = []string{task1, task2, task3, task4}
 	fmt.Println("##### Welcome TodoList App! #####\n")
 
-	fmt.Println("1. Read Book\n")
-	fmt.Println("2. Go to gym\n")
-	fmt.Println("3. Write code\n")
-	fmt.Println("4.", task1)
+	fmt.Println(taskIteams)
 }
